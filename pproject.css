@@ -1,0 +1,84 @@
+html {
+    margin: 0;
+    scroll-behavior: smooth !important;
+}
+/*NAVBAR*/
+header {
+    height: auto;
+    position: relative;
+    display: flex;
+}
+.wrapper{
+    width: 100%;
+    padding: 0;
+    position: relative;
+    left:0;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper img {
+    width: 100%;
+    height: 640px;
+}
+.navbar {
+    height: 70px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    background: grey;
+}
+
+label.logo {
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+    top: 10px;
+    left: 120px;
+    position: relative;
+}
+.nav-area {
+    padding: 20px;
+    list-style: none;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+}
+.nav-area li {
+    display: inline-block;
+    right: 0;
+}
+.nav-area li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-area li a:hover {
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+/*HOMEPAGE*/
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+    top: -10rem;
+    right: 20rem;
+}
+.welcome-text h1 {
+    padding: 10px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: -322px;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    font-weight: 1000;
+}
+.welcome-text a {
+    background: none;
+    color: rgb(255, 255, 255);
+}
