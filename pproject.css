@@ -78,7 +78,8 @@ label.logo {
     color: rgb(255, 0, 0);
     font-weight: 1000;
 }
-.welcome-text a {
+.welcome-text p {
+    text-align: center;
     background: none;
     color: rgb(255, 255, 255);
 }

@@ -7,30 +7,36 @@
     <link rel="stylesheet" type="text/css" href="pproject.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
     <script src="https://kit.fontawesome.com/f78c3fdde0.js" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Our Products</title>
 </head>
 <body>
-    <header id="home">
+    <header id="products">
         <div class="wrapper">
-            <img src="C:\Users\User\Desktop\project\images\slide_01.jpg">
+            <img src="C:\Users\User\Desktop\project\images\products-heading.jpg">
             <div class="navbar">
                 <label class="logo"><span style="color: white;">SIXTEEN</span> CLOTHING</label>
                     <ul class="nav-area">
-                      <li><a href="home.html">Home</a></li>
-                      <li><a href="products.html">Our Products</a></li>
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="products.html">Our Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
                     </ul>
             </div>
         </div>
         <div class="welcome-text">
-            <h1 id = "1">BEST OFFER</h1>
-            <p>NEW ARRIVALS ON SALE</p>
+            <h1 id = "1">NEW ARRIVALS</h1>
+            <p>SIXTEEN PRODUCTS</p>
         </div>
     </header>
-    <section id="latest-products">
-        <h3>Latest Products       <a href="#!">VIEW ALL PRODUCTS</a></h3> 
-        
+    <div class="filters">
+        <ul>
+            <li class="active" data-filter="*">All Products</li>
+            <li data-filter=".des">Featured</li>
+            <li data-filter=".dev">Flash Deals</li>
+            <li data-filter=".gra">Last Minute</li>
+        </ul>
+      </div>
+    <section id="products">
       <ul class="photo-stack-grid">
         <li>
           <a href="#d">
@@ -153,50 +159,20 @@
           </a>
         </li>
       </ul>
-    </section>
-   <section class="home-about-area" id="aboutus">
-        <div class="container">
-            <div class="row">
-                <div>
-                    <div class="home-text">
-                        <h1>About Sixteen Clothing</h1>
-                        <h3>Looking for the best products?</h3>
-                        <h5><a href="https://templatemo.com/">This template</a> is free to use for your business websites. 
-                            However, you have no permission to redistribute the downloadable 
-                            ZIP file on any template collection website. <a href="#contact">Contact us</a> for more info.</h5>
-                        <ul type="square">
-                            <li><a href="#!">Lorem</a></li>
-                            <li><a href="#!">Consectetur</a></li>
-                            <li><a href="#!">It</a></li>
-                            <li><a href="#!">Corporis</a></li>
-                            <li><a href="#!">Non</a></li>
-                        </ul>
-                        <a href="#!" class="primary-btn text-uppercase">read more</a>
-                    </div>
-                </div>
-                <div>
-                    <div class="image">
-                        <img src="C:\Users\User\Desktop\project\images\feature-image.jpg" class="imageimg" style="width: 100%;height:400px;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="form-area">
-            <div class="form">
-                <h3>Creative & Unique Sixteen Products</h3>
-                <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.     
-                    <a href="#!">Purchase Now</a>
-                </h4>
-            </div>
-         </div>
-    </section>
-    <footer>
+      <div class="">
+        <ul class="pages">
+          <li><a href="#">1</a></li>
+          <li class="active"><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+        </ul>
+      </div>
+      </section>
+      <footer>
         <div class="copyrighttext">
             <p>COPYRIGHT © 2020 SIXTEEN CLOTHING CO., LTD. - DESIGN: <a href="https://templatemo.com/">TEPLATEMO</a></p>
         </div>
     </footer>
-
 </body>
 </html>
