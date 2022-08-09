@@ -10,7 +10,6 @@ a.primary-btn:hover {
 	color: #fff;
 }
 ul {
-    list-style: none;
     padding: 0;
 	margin: 0;
 }
@@ -168,9 +167,9 @@ label.logo {
 .home-about-area .row{
     margin:0;
 }
-.home-text h1 {
+.section-heading h1 {
     padding: 20px 0;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-size: 28px;
     color: #1e1e1e;
     line-height: 1.2em !important;
@@ -179,7 +178,7 @@ label.logo {
 .home-text h3 {
     font-size: 17px;
     color: #1a6692;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .home-text p {
     margin-bottom: 20px;
@@ -189,6 +188,21 @@ label.logo {
     line-height: 1.2em !important;
     display: block;
     margin-block-end: 1.67em;
+}
+.home-text ul li {
+    display: block;
+	margin-bottom: 10px;
+}
+.home-text ul li a {
+    font-size: 14px;
+	color: #4a4a4a;
+	font-weight: 300;
+	transition: all .3s;
+	position: relative;
+	padding-left: 13px;
+}
+.home-text ul li a:hover {
+    color: #f33f3f;
 }
 .primary-btn {
     background-color: #f33f3f;
@@ -239,7 +253,7 @@ label.logo {
     color: #4a4a4a;
     line-height: 24px;
 }
-.purchase-area .purchase a {
+.purchase-area a {
     background-color: #f33f3f;
     color: #fff;
     font-size: 14px;
@@ -250,7 +264,7 @@ label.logo {
     display: inline-block;
     transition: all 0.3s;
 }
-.purchase-area .purchase a:hover {
+.purchase-area a:hover {
     background-color: #121212;
 	color: #fff;
 }
@@ -408,6 +422,10 @@ footer .copyrighttext a {
     vertical-align: middle;
     border-style: none;
 }
+ul.social-icons li {
+    display: inline-block;
+	margin-right: 3px;
+}
 ul.social-icons li a {
 	width: 50px;
 	height: 50px;
@@ -478,3 +496,37 @@ ul.social-icons li a:hover {
 	background-color: #121212;
 	color: #fff;
 }
+
+
+
+
+
+#products ul.pages {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#products ul.pages li {
+	display: inline-block;
+	margin: 0px 2px;
+}
+
+#products ul.pages li a {
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	line-height: 42px;
+	border: 1px solid #eee;
+	font-size: 15px;
+	font-weight: 700;
+	color: #121212;
+	transition: all .3s;
+}
+
+#products ul.pages li a:hover,
+#products ul.pages li.active a {
+	background-color: #f33f3f;
+	border-color: #f33f3f;
+	color: #fff;
+}
+
